@@ -3,20 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 // ========================================
+
+
  
 class Empty extends React.Component {
-    constructor(){
-	// have to call super before anything else or error 
-	super();
-	this.a = "hello world";
-	this.d = new Date(Date.now());
-    }
-    
   render() {
-      return (
-	  // jsx
-	  // try to declare local variable in jsx 
-	      <p>today is the { this.d.getDay() }</p>
+      return ( 
+	      <p>today is the { (function(){ var a = Date.now(); a.getDay() ; })() }</p>
     );
   }
 }

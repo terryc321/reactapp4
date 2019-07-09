@@ -2,6 +2,11 @@
 Trying to understand REACT , why it is so popular.
 
 ### `ReactDOM.render();`
+## <SomeClass /> ,  the-document-root
+
+## document-root is document.getElementById('root')
+
+
 
 
 
