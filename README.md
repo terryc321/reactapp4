@@ -1,6 +1,15 @@
 
 Trying to understand REACT , why it is so popular.
 
+### `ReactDOM.render();`
+
+
+
+cant feel my legs.
+
+single file index.js that has all the javascript code for the react
+
+
 
 
 
